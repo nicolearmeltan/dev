@@ -1,0 +1,11 @@
+{
+  "configs": {
+    "APP_PORT": 7777,
+    "DB_HOST": "localhost",
+    "DB_PORT": 3308,
+    "DB_USER": "nico",
+    "DB_PASS": "123456",
+    "DB_CON": "sampledb",
+    "DB_DIALECT": "mysql"
+  }
+}
