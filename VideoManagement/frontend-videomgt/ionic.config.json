@@ -1,0 +1,7 @@
+{
+  "name": "frontend-videomgt",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
