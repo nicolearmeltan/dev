@@ -12,5 +12,7 @@ router.get('/', function (req, res) {
 
 router.post('/upload', upload.single("uploadfile"), fileController.upload)
 
+router.post('/postuser', fileController.user)
+
 
 module.exports = router;

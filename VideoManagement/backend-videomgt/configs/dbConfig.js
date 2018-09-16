@@ -16,7 +16,7 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
 db.video = require('../models/videoModel')(sequelize, Sequelize);
-//db.user = require('../models/userModel')(sequelize, Sequelize);
+db.user = require('../models/userModel')(sequelize, Sequelize);
 
 db.sequelize.sync().then(() => {
   console.log('Database synched')
